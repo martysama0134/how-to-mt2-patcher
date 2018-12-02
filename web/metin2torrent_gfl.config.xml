@@ -9,10 +9,10 @@
     new_patcher_crc32="0xcd8b7999">
     <foreground_patch crcpatch_url="http://127.0.0.1" crcversion="0.0.0.2"/>
 
-	<!--HOW TO ADD LTERNATIVE MIRRORS-->
+    <!--HOW TO ADD ALTERNATIVE MIRRORS-->
     <!--<foreground_patch crcpatch_url="http://127.0.0.1:8080" crcversion="m2_18.5.6_22630"/>-->
 
-	<!--HOW TO DELETE FILES-->
+    <!--HOW TO DELETE FILES-->
     <!--<delete_info path="pack\metin2_patch_dragon_rock.rdch" />
     <delete_info path="pack\metin2_patch_dragon_rock_texcache.eix" />
     <delete_info path="pack\metin2_patch_dragon_rock_texcache.epk" />

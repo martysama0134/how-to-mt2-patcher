@@ -29,7 +29,7 @@ by martysama0134
 1. inside `web/metin2torrent_gfl.config.xml` edit `new_patcher_crc32` with the crc32 of the new autopatcher
 1. upload the new autopatcher as `metin2launch.bin`
 
-### BONUS1 - HOW TO INSTALL APACHE AND RUN ON FREEBSD
+### BONUS1 - HOW TO INSTALL APACHE AND RUN IT ON FREEBSD
 ```sh
 # install apache
 $ pkg install apache24

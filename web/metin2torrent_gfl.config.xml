@@ -1,0 +1,26 @@
+<torrent_config 
+    run_path="metin2client.bin"
+    notice_ver="0"
+    notice_url="http://127.0.0.1/metin2_accept/"
+    notice_width="671"
+    notice_height="600"
+    cur_patcher_path="metin2launch.exe"
+    new_patcher_path="metin2launch.bin"
+    new_patcher_crc32="0xcd8b7999">
+    <foreground_patch crcpatch_url="http://127.0.0.1" crcversion="0.0.0.2"/>
+
+	<!--HOW TO ADD LTERNATIVE MIRRORS-->
+    <!--<foreground_patch crcpatch_url="http://127.0.0.1:8080" crcversion="m2_18.5.6_22630"/>-->
+
+	<!--HOW TO DELETE FILES-->
+    <!--<delete_info path="pack\metin2_patch_dragon_rock.rdch" />
+    <delete_info path="pack\metin2_patch_dragon_rock_texcache.eix" />
+    <delete_info path="pack\metin2_patch_dragon_rock_texcache.epk" />
+    <delete_info path="pack\metin2_patch_dragon_rock_mobs.rdch" />
+    <delete_info path="pack\metin2_patch_dragon_rock_mobs_texcache.eix" />
+    <delete_info path="pack\metin2_patch_dragon_rock_mobs_texcache.epk" />
+    <delete_info path="lib\userdict.pyc" />
+    <delete_info path="errorlog.exe" />
+    <delete_info path="logo3.avi" />-->
+
+</torrent_config>

@@ -21,6 +21,6 @@ by martysama0134
 1. upload `web/` into your webhosting
 
 ### STEP3 - GENERATING THE PATCHES
-1. place the files you want to patch (except metin2launch.exe) inside the client/ folder
+1. place the files you want to patch (except `metin2launch.exe`) inside the `client/` folder
 1. run crclist_maker.py or .bat or alternative .bat
 1. upload the new files generated inside `web/` into your webhosting

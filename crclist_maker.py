@@ -24,7 +24,7 @@ def get_mtime(filename):
 
 input_folder = _np("client")
 output_folder = _np("web")
-output_version = _np("0.0.0.1")
+output_version = _np("0.0.0.2")
 output_fv = make_path(output_folder, output_version)
 output_crclist = make_path(output_fv, "crclist")
 

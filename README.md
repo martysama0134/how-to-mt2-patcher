@@ -31,7 +31,13 @@ by martysama0134
 
 ### BONUS1 - HOW TO INSTALL APACHE AND RUN ON FREEBSD
 ```sh
-pkg install apache24
-echo 'apache24_enable="YES"' >> /etc/rc.conf
-service apache24 start
+# install apache
+$ pkg install apache24
+# start it on boot load
+$ echo 'apache24_enable="YES"' >> /etc/rc.conf
+# start the apache service
+$ service apache24 start
+# enable connection from any putting your real ip
+$ echo 'ServerName YOUR_IP:80' >> /usr/local/etc/apache24/httpd.conf
+# now you can upload your stuff inside /usr/local/www/apache24/data
 ```

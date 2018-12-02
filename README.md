@@ -9,10 +9,10 @@ by martysama0134
 1. No copyrighted files is present inside this repository.
 
 ### STEP1 - TORRENT PATCHER GENERATOR
-1. copy the metin2launch.bin from the official GF client inside this folder
-1. run Unzip_Patcher.bat to generate the patcher/ folder
-1. inside patcher/ edit TorrentPatch.url.xml with your website URL
-1. run Make_Patcher.bat to generate metin2launch.exe (it combines metin2launch.bin + patcher/ data)
+1. copy the `metin2launch.bin` from the official client inside this folder
+1. run `Unzip_Patcher.bat` to generate the `patcher/` folder
+1. inside `patcher/` edit `TorrentPatch.url.xml` with your website URL
+1. run `Make_Patcher.bat` to generate `metin2launch.exe` (it combines `metin2launch.bin` + `patcher/` data)
 
 ### STEP2 - WEB CONFIGURATION
 1. edit the `web/metin2torrent_gfl.config.xml` file by replacing `127.0.0.1` contained in `crcpatch_url` and `notice_url` with your ip/domain.

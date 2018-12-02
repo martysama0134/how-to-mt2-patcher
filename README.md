@@ -43,5 +43,6 @@ $ echo 'apache24_enable="YES"' >> /etc/rc.conf
 $ service apache24 start
 # enable connection from any putting your real ip
 $ echo 'ServerName YOUR_IP:80' >> /usr/local/etc/apache24/httpd.conf
-# now you can upload your stuff inside /usr/local/www/apache24/data
+$ service apache24 restart
+# now you can upload your stuff inside /usr/local/www/apache24/data/
 ```

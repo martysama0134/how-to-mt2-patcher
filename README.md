@@ -29,6 +29,10 @@ by martysama0134
 1. inside `web/metin2torrent_gfl.config.xml` edit `new_patcher_crc32` with the crc32 of the new autopatcher
 1. upload the new autopatcher as `metin2launch.bin`
 
+### EXTRA2 - AUTOPATCHER WITH ARGUMENT
+When you press 'Start', a file called `003254` is created. Add a check in `root/system.py` or `launcher/UserInterface.cpp` for it.
+...to be completed...
+
 ### BONUS1 - HOW TO INSTALL APACHE AND RUN IT ON FREEBSD
 ```sh
 # install apache

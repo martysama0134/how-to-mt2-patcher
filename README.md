@@ -11,7 +11,9 @@ by martysama0134
 ### STEP1 - TORRENT PATCHER GENERATOR
 1. copy the `metin2launch.bin` from the official client inside this folder
 1. run `Unzip_Patcher.bat` to generate the `patcher/` folder
-1. inside `patcher/` edit `TorrentPatch.url.xml` with your website URL
+1. inside `patcher/TorrentPatch.url.xml` edit `remoteConfigPath` with your website URL
+1. inside `patcher/TorrentPatch.locale.xml` edit `LAUNCHER_IFRAME` with your website URL (patch page)
+1. inside `patcher/TorrentPatch.locale.xml` edit `LAUNCHER_NEW_URL` and `URL_NEW` with your website URL (account registration page)
 1. run `Make_Patcher.bat` to generate `metin2launch.exe` (it combines `metin2launch.bin` + `patcher/` data)
 
 ### STEP2 - WEB CONFIGURATION

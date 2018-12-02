@@ -24,3 +24,7 @@ by martysama0134
 1. place the files you want to patch (except `metin2launch.exe`) inside the `client/` folder
 1. run crclist_maker.py or .bat or alternative .bat
 1. upload the new files generated inside `web/` into your webhosting
+
+### EXTRA1 - UPDATE THE AUTOPATCHER
+1. inside `web/metin2torrent_gfl.config.xml` edit `new_patcher_crc32` with the crc32 of the new autopatcher
+1. upload the new autopatcher as `metin2launch.bin`

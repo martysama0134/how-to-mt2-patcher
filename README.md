@@ -2,9 +2,9 @@
 by martysama0134
 
 ### INFOs
-1. You need the metin2launch.bin you can find from the latest official GF Metin2 client!
-1. It works only with 7za.exe v9. I tried with 7za.exe v18, but it will keep the old files in the binary.
-1. The index.html files for web/ can be dumped by using Save Page WE (Chrome extension)
+1. You need the `metin2launch.bin` you can find from the official Metin2 client! (I used the latest version)
+1. It works only with 7za.exe v9. I tried with 7za.exe v18, but it will keep the old files inside the binary.
+1. The real index.html files for web/ can be dumped by using Save Page WE (Chrome extension)
 1. The sourcefiles of mt2lz.exe can be found in [here](https://github.com/martysama0134/mt2lz)
 1. No copyrighted files is present inside this repository.
 
@@ -18,7 +18,7 @@ by martysama0134
 1. edit the `web/metin2torrent_gfl.config.xml` file by replacing `127.0.0.1` contained in `crcpatch_url` and `notice_url` with your ip/domain.
 1. upload `web/` into your webhosting
 
-### STEP3 - PATCH GENERATOR
+### STEP3 - GENERATING THE PATCHES
 1. place the files you want to patch (except metin2launch.exe) inside the client/ folder
 1. run crclist_maker.py or .bat or alternative .bat
 1. upload the new files generated inside `web/` into your webhosting

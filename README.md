@@ -48,3 +48,14 @@ $ echo 'ServerName YOUR_IP:80' >> /usr/local/etc/apache24/httpd.conf
 $ service apache24 restart
 # now you can upload your stuff inside /usr/local/www/apache24/data/
 ```
+_Note: don't use apache and nginx together_
+
+### BONUS2 - HOW TO INSTALL NGINX AND RUN IT ON FREEBSD
+```sh
+$ pkg install nginx
+$ echo 'nginx_enable="YES"' >> /etc/rc.conf
+$ service nginx start
+# nginx settings can be found in /usr/local/etc/nginx/nginx.conf
+# now you can upload your stuff inside /usr/local/www/nginx (symlinked to nginx-dist)
+```
+_Note: don't use apache and nginx together_

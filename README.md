@@ -1,4 +1,6 @@
 # How-To Metin2-Patcher
+Generate and Configure the M2 Torrent Patcher
+
 by martysama0134
 
 ### INFOs

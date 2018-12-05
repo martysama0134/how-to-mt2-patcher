@@ -56,6 +56,6 @@ $ pkg install nginx
 $ echo 'nginx_enable="YES"' >> /etc/rc.conf
 $ service nginx start
 # nginx settings can be found in /usr/local/etc/nginx/nginx.conf
-# now you can upload your stuff inside /usr/local/www/nginx (symlinked to nginx-dist)
+# now you can upload your stuff inside /usr/local/www/nginx/ (symlinked to nginx-dist)
 ```
 _Note: don't use apache and nginx together_
